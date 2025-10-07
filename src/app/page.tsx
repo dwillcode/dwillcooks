@@ -28,8 +28,8 @@ export default function Home() {
         <div className="text-center">
           {/* Logo/Brand */}
           <header className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-[#022F70] mb-4">
-              <span className="text-[#F17816]">dwill</span>cooks
+            <h1 className="text-5xl md:text-7xl font-bold text-[#FEF1CF] mb-4 drop-shadow-lg">
+              <span className="text-[#FCC022]">dwill</span>cooks
             </h1>
             <div 
               className="w-24 h-1 bg-[#F17816] mx-auto rounded-full"
@@ -40,10 +40,10 @@ export default function Home() {
 
           {/* Main Message */}
           <section className="mb-12" aria-labelledby="main-message">
-            <h2 id="main-message" className="text-3xl md:text-4xl font-bold text-[#022F70] mb-6">
+            <h2 id="main-message" className="text-3xl md:text-4xl font-bold text-[#FEF1CF] mb-6 drop-shadow-lg">
               Something Delicious is Coming Soon
             </h2>
-            <p className="text-xl text-[#022F70] mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-[#FEF1CF] mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
               I'm working hard to bring you an amazing culinary experience. 
               Get ready for recipes, cooking tips, and everything you need to 
               elevate your kitchen game.
@@ -148,13 +148,13 @@ export default function Home() {
 
           {/* Social Links */}
           <section className="mb-8" aria-labelledby="social-heading">
-            <h3 id="social-heading" className="text-[#022F70] mb-4">Follow the journey</h3>
+            <h3 id="social-heading" className="text-[#FEF1CF] mb-4 drop-shadow-md">Follow the journey</h3>
             <nav aria-label="Social media links">
               <ul className="flex justify-center space-x-6" role="list">
                 <li>
                   <a 
                     href="https://instagram.com/dwillcooks" 
-                    className="text-[#022F70]/60 hover:text-[#F17816] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F17816] focus:ring-offset-2 rounded"
+                    className="text-[#FEF1CF]/80 hover:text-[#FCC022] transition-colors focus:outline-none focus:ring-2 focus:ring-[#FCC022] focus:ring-offset-2 rounded"
                     aria-label="Follow dwillcooks on Instagram"
                   >
                     <span className="sr-only">Instagram</span>
@@ -166,7 +166,7 @@ export default function Home() {
                 <li>
                   <a 
                     href="https://youtube.com/@dwillcooks" 
-                    className="text-[#022F70]/60 hover:text-[#F17816] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F17816] focus:ring-offset-2 rounded"
+                    className="text-[#FEF1CF]/80 hover:text-[#FCC022] transition-colors focus:outline-none focus:ring-2 focus:ring-[#FCC022] focus:ring-offset-2 rounded"
                     aria-label="Subscribe to dwillcooks on YouTube"
                   >
                     <span className="sr-only">YouTube</span>
@@ -178,7 +178,7 @@ export default function Home() {
                 <li>
                   <a 
                     href="https://facebook.com/dwillcooks" 
-                    className="text-[#022F70]/60 hover:text-[#F17816] transition-colors focus:outline-none focus:ring-2 focus:ring-[#F17816] focus:ring-offset-2 rounded"
+                    className="text-[#FEF1CF]/80 hover:text-[#FCC022] transition-colors focus:outline-none focus:ring-2 focus:ring-[#FCC022] focus:ring-offset-2 rounded"
                     aria-label="Follow dwillcooks on Facebook"
                   >
                     <span className="sr-only">Facebook</span>
@@ -192,7 +192,7 @@ export default function Home() {
           </section>
 
           {/* Footer Note */}
-          <footer className="text-sm text-[#022F70]/70">
+          <footer className="text-sm text-[#FEF1CF]/90 drop-shadow-sm">
             <p>© 2024 dwillcooks. All rights reserved.</p>
           </footer>
         </div>
