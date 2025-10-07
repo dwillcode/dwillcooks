@@ -1,19 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #dc2626;
-  --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
-  --secondary-foreground: #0f172a;
-  --accent: #fef2f2;
-  --accent-foreground: #991b1b;
+  /* Color palette from the citrus image */
+  --navy-blue: #022F70;
+  --vibrant-orange: #F17816;
+  --golden-yellow: #FCC022;
+  --teal-green: #17D1A5;
+  --cream: #FEF1CF;
+  
+  /* Updated color scheme using the palette */
+  --background: #FEF1CF;
+  --foreground: #022F70;
+  --primary: #F17816;
+  --primary-foreground: #FEF1CF;
+  --secondary: #17D1A5;
+  --secondary-foreground: #022F70;
+  --accent: #FCC022;
+  --accent-foreground: #022F70;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #dc2626;
+  --border: #17D1A5;
+  --input: #FCC022;
+  --ring: #F17816;
 }
 
 @theme inline {
@@ -44,6 +52,29 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), system-ui, sans-serif;
+  position: relative;
+}
+
+/* Food background image with overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB2aWV3Qm94PSIwIDAgMTkyMCAxMDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJmb29kR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRkVGMUNGO3N0b3Atb3BhY2l0eToxIiAvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRjE3ODE2O3N0b3Atb3BhY2l0eTowLjMiIC8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjE5MjAiIGhlaWdodD0iMTA4MCIgZmlsbD0idXJsKCNmb29kR3JhZGllbnQpIi8+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiIGZpbGw9InVybCgjZm9vZEdyYWRpZW50KSIvPgo8Y2lyY2xlIGN4PSI0MDAiIGN5PSI0MDAiIHI9IjE1MCIgZmlsbD0iI0ZDMjAyMiIgb3BhY2l0eT0iMC42Ii8+CjxjaXJjbGUgY3g9IjEyMDAiIGN5PSIzMDAiIHI9IjEyMCIgZmlsbD0iI0YxNzgxNiIgb3BhY2l0eT0iMC43Ii8+CjxjaXJjbGUgY3g9IjE2MDAiIGN5PSI2MDAiIHI9IjEwMCIgZmlsbD0iIzE3RDFBNSIgb3BhY2l0eT0iMC41Ii8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjcwMCIgcj0iMTgwIiBmaWxsPSIjRkMyMDIyIiBvcGFjaXR5PSIwLjQiLz4KPGNpcmNsZSBjeD0iMTQwMCIgY3k9IjgwMCIgcj0iMTQwIiBmaWxsPSIjRjE3ODE2IiBvcGFjaXR5PSIwLjYiLz4KPGNpcmNsZSBjeD0iMjAwIiBjeT0iNTAwIiByPSIxMDAiIGZpbGw9IiMxN0QxQTUiIG9wYWNpdHk9IjAuNSIvPgo8Y2lyY2xlIGN4PSIxNjAwIiBjeT0iMjAwIiByPSI4MCIgZmlsbD0iI0ZDMjAyMiIgb3BhY2l0eT0iMC42Ii8+CjxjaXJjbGUgY3g9IjgwMCIgY3k9IjkwMCIgcj0iMTIwIiBmaWxsPSIjRjE3ODE2IiBvcGFjaXR5PSIwLjQiLz4KPGNpcmNsZSBjeD0iMTAwMCIgY3k9IjEwMDAiIHI9IjkwIiBmaWxsPSIjMTdEMUE1IiBvcGFjaXR5PSIwLjUiLz4KPC9zdmc+');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Ensure content is above the background */
+body > * {
+  position: relative;
+  z-index: 1;
 }
 
 /* Custom utilities */
