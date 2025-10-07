@@ -118,7 +118,7 @@ export default function Home() {
                     placeholder="Enter your email address"
                     required
                     aria-describedby="email-help"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-colors placeholder:text-gray-500"
                   />
                   <div id="email-help" className="sr-only">
                     Enter your email address to receive launch notifications
