@@ -22,17 +22,17 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
+    <div className="min-h-screen bg-gradient-to-br from-red-50 via-rose-50 to-pink-50">
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Coming Soon Content */}
         <div className="text-center">
           {/* Logo/Brand */}
           <header className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
-              <span className="text-orange-600">dwill</span>cooks
+              <span className="text-red-600">dwill</span>cooks
             </h1>
             <div 
-              className="w-24 h-1 bg-orange-600 mx-auto rounded-full"
+              className="w-24 h-1 bg-red-600 mx-auto rounded-full"
               role="presentation"
               aria-hidden="true"
             ></div>
@@ -55,9 +55,9 @@ export default function Home() {
             <h2 id="features-heading" className="sr-only">Upcoming Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <article className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <HeartIcon 
-                    className="w-6 h-6 text-orange-600" 
+                    className="w-6 h-6 text-red-600" 
                     aria-hidden="true"
                   />
                 </div>
@@ -68,9 +68,9 @@ export default function Home() {
               </article>
 
               <article className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <ClockIcon 
-                    className="w-6 h-6 text-orange-600" 
+                    className="w-6 h-6 text-red-600" 
                     aria-hidden="true"
                   />
                 </div>
@@ -81,9 +81,9 @@ export default function Home() {
               </article>
 
               <article className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <EnvelopeIcon 
-                    className="w-6 h-6 text-orange-600" 
+                    className="w-6 h-6 text-red-600" 
                     aria-hidden="true"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function Home() {
                     placeholder="Enter your email address"
                     required
                     aria-describedby="email-help"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-colors placeholder:text-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none transition-colors placeholder:text-gray-500"
                   />
                   <div id="email-help" className="sr-only">
                     Enter your email address to receive launch notifications
@@ -127,7 +127,7 @@ export default function Home() {
                 <Button 
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                  className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                   aria-describedby="submit-status"
                 >
                   {isSubmitting ? 'Submitting...' : 'Notify Me'}
@@ -154,7 +154,7 @@ export default function Home() {
                 <li>
                   <a 
                     href="https://instagram.com/dwillcooks" 
-                    className="text-gray-500 hover:text-orange-600 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded"
+                    className="text-gray-500 hover:text-red-600 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 rounded"
                     aria-label="Follow dwillcooks on Instagram"
                   >
                     <span className="sr-only">Instagram</span>
@@ -166,7 +166,7 @@ export default function Home() {
                 <li>
                   <a 
                     href="https://youtube.com/@dwillcooks" 
-                    className="text-gray-500 hover:text-orange-600 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded"
+                    className="text-gray-500 hover:text-red-600 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 rounded"
                     aria-label="Subscribe to dwillcooks on YouTube"
                   >
                     <span className="sr-only">YouTube</span>
@@ -178,7 +178,7 @@ export default function Home() {
                 <li>
                   <a 
                     href="https://facebook.com/dwillcooks" 
-                    className="text-gray-500 hover:text-orange-600 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded"
+                    className="text-gray-500 hover:text-red-600 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 rounded"
                     aria-label="Follow dwillcooks on Facebook"
                   >
                     <span className="sr-only">Facebook</span>

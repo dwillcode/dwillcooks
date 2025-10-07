@@ -35,7 +35,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <h3 className="text-lg font-semibold text-gray-900 mb-2">
           <Link 
             href={`/shop/${product.slug}`}
-            className="hover:text-orange-600 transition-colors"
+            className="hover:text-red-600 transition-colors"
           >
             {product.name}
           </Link>
@@ -52,7 +52,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           
           <Button 
             disabled={!product.inStock}
-            className="bg-orange-600 hover:bg-orange-700 text-white"
+            className="bg-red-600 hover:bg-red-700 text-white"
           >
             <ShoppingCartIcon className="h-4 w-4 mr-2" />
             Add to Cart

@@ -3,17 +3,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #ea580c;
+  --primary: #dc2626;
   --primary-foreground: #ffffff;
   --secondary: #f1f5f9;
   --secondary-foreground: #0f172a;
-  --accent: #fef3c7;
-  --accent-foreground: #92400e;
+  --accent: #fef2f2;
+  --accent-foreground: #991b1b;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
   --border: #e2e8f0;
   --input: #e2e8f0;
-  --ring: #ea580c;
+  --ring: #dc2626;
 }
 
 @theme inline {
