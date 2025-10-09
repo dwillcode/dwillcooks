@@ -10,7 +10,7 @@ export default function BlogPage() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Blog</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Discover my culinary journey through recipes, techniques, and kitchen adventures. 
-            From traditional methods to modern innovations, there's something for every cooking enthusiast.
+            From traditional methods to modern innovations, there&apos;s something for every cooking enthusiast.
           </p>
         </div>
 

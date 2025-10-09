@@ -87,7 +87,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Embrace Experimentation</h3>
               <p className="text-gray-600">
-                Don't be afraid to try new combinations and techniques. Some of the best 
+                Don&apos;t be afraid to try new combinations and techniques. Some of the best 
                 discoveries come from happy accidents.
               </p>
             </div>
@@ -96,9 +96,9 @@ export default function AboutPage() {
 
         {/* Contact Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Let's Connect</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Let&apos;s Connect</h2>
           <p className="text-lg text-gray-600 mb-8">
-            I'd love to hear about your own culinary adventures and answer any questions you might have.
+            I&apos;d love to hear about your own culinary adventures and answer any questions you might have.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="outline">

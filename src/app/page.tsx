@@ -44,7 +44,7 @@ export default function Home() {
               Something Delicious is Coming Soon
             </h2>
             <p className="text-xl text-[#FEF1CF] mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-              I'm working hard to bring you an amazing culinary experience. 
+              I&apos;m working hard to bring you an amazing culinary experience. 
               Get ready for recipes, cooking tips, and everything you need to 
               elevate your kitchen game.
             </p>
